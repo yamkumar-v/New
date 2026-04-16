@@ -1,0 +1,2 @@
+kubectl port-forward service/html-demo-service 9090:80
+  netstat -ano | findstr :8080
